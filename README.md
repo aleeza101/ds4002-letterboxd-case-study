@@ -11,14 +11,15 @@ This repository contains all materials for a case study examining whether sentim
 ## Repository Structure
 
 ds4002-letterboxd-case-study/
+│
 ├── README.md
 ├── data/
-│   └── letterboxd_top250_reviews_clean.csv
+│   └── letterboxd_top250_reviews_clean.csv   # cleaned review-level dataset
 ├── src/
-│   ├── hugging_face_capstone.py
-│   └── sentiment_analysis.py
+│   ├── hugging_face_capstone.py              # HuggingFace model inference
+│   └── sentiment_analysis.py                 # VADER sentiment helper
 ├── notebooks/
-│   └── Project#1_M13_Analysis.ipynb
+│   └── Project#1_M13_Analysis.ipynb          # full analysis notebook
 ├── results/
 │   ├── confusion_matrix.png
 │   ├── accuracy_by_length.csv
@@ -26,8 +27,8 @@ ds4002-letterboxd-case-study/
 │   ├── accuracy_by_emoji.csv
 │   └── accuracy_by_caps_ratio.csv
 └── docs/
-    ├── hook_document.pdf
-    └── rubric.pdf
+├── hook_document.pdf
+└── rubric.pdf
 
 ## Software and Requirements
 
