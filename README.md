@@ -12,16 +12,20 @@ This repository contains all materials for a case study examining whether sentim
 
 ds4002-letterboxd-case-study/
 data/
+
 letterboxd_top250_reviews_clean.csv
 
 src/
+
 hugging_face_capstone.py
 sentiment_analysis.py
 
 notebooks/
+
 Project#1_M13_Analysis.ipynb
 
 results/
+
 confusion_matrix.png
 accuracy_by_length.csv
 accuracy_by_language.csv
@@ -29,6 +33,7 @@ accuracy_by_emoji.csv
 accuracy_by_caps_ratio.csv
 
 docs/
+
 hook_document.pdf
 rubric.pdf
 
